@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal"
+      fx:controller="org.example.Controller">
+
+    <TextArea fx:id="input" HBox.hgrow="ALWAYS">
+        <font>
+            <Font name="System" size="16"/>
+        </font>
+    </TextArea>
+    <HBox VBox.vgrow="ALWAYS">
+        <TextArea fx:id="output" editable="false" HBox.hgrow="ALWAYS">
+            <font>
+                <Font name="System" size="16"/>
+            </font>
+        </TextArea>
+    </HBox>
+</VBox>
